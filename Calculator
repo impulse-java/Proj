@@ -7,6 +7,9 @@ import java.awt.event.*;
 
 class GUI extends JFrame implements ActionListener {
     
+    public int tempInt;
+    public int tempOp;
+    public String tempStr;
     public JButton one;
     public JButton two;
     public JButton three;
@@ -157,48 +160,213 @@ class GUI extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == one) {
             text.setText("1");
+            tempStr = "1";
+            tempInt = 1;
             if(e.getSource() == one) {
-                
+                if(tempOp == 1)  {
+                    text.setText("1" + "+" + tempInt);
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
             }
         }
         if(e.getSource() == two) {
             text.setText("2");
+            tempStr = "2";
+            tempInt = 2;
+            if(e.getSource() == two) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == three) {
             text.setText("3");
+            tempStr = "3";
+            tempInt = 3;
+            if(e.getSource() == three) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == four) {
             text.setText("4");
+            tempStr = "4";
+            tempInt = 4;
+            if(e.getSource() == five) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == five) {
             text.setText("5");
+            tempStr = "5";
+            tempInt = 5;
+            if(e.getSource() == six) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == six) {
             text.setText("6");
+            tempStr = "6";
+            tempInt = 6;
+            if(e.getSource() == six) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == seven) {
             text.setText("7");
+            tempStr = "7";
+            tempInt = 7;
+            if(e.getSource() == seven) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == eight) {
             text.setText("8");
+            tempStr = "8";
+            tempInt = 8;
+            if(e.getSource() == eight) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == nine) {
             text.setText("9");
+            tempStr = "9";
+            tempInt = 9;
+            if(e.getSource() == nine) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == zero) {
             text.setText("0");
+            tempStr = "0";
+            tempInt = 0;
+            if(e.getSource() == zero) {
+                if(tempOp == 1)  {
+                    
+                }
+                if(tempOp == 2)  {
+                    
+                }
+                if(tempOp == 3)  {
+                    
+                }
+                if(tempOp == 4)  {
+                    
+                }
+            }
         }
         if(e.getSource() == plus) {
             text.setText("+");
+            tempStr = "+";
+            tempOp = 1;
         }
         if(e.getSource() == minus) {
             text.setText("-");
+            tempStr = "-";
+            tempOp = 2;
         }
         if(e.getSource() == times) {
             text.setText("*");
+            tempStr = "*";
+            tempOp = 3;
         }
         if(e.getSource() == div) {
             text.setText("/");
+            tempStr = "/";
+            tempOp = 4;
         }
         if(e.getSource() == clear) {
             text.setText(null);
